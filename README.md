@@ -12,9 +12,9 @@ The icon is `nf-oct-stack` (`\uf51e`).
 
 You can of course remove it or swap it for something else.
 
-# Example usage
+## Example usage
 
-## p10k
+### p10k
 
 Create a custom prompt in `~/.p10k.zsh` (or wherever your p10k config is):
 
