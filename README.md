@@ -21,7 +21,7 @@ Create a custom prompt in `~/.p10k.zsh` (or wherever your p10k config is):
 ```sh
 function prompt_graphite() {
     if [[ -d .git ]] || git rev-parse --git-dir > /dev/null 2>&1; then
-        local stack=$(~/graphite-stack.sh)
+        local stack=$(~/graphite-statusline/graphite-stack.sh)
         p10k segment -f 66 -t "$stack"
     fi
 }
